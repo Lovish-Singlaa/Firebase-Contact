@@ -1,17 +1,17 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
-// import dotenv from "dotenv";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
-// dotenv.config();
-
+// Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: process.env.FIREBASE_API_KEY,
-  authDomain: "contact-app-d7b62.firebaseapp.com",
-  projectId: "contact-app-d7b62",
-  storageBucket: "contact-app-d7b62.appspot.com",
-  messagingSenderId: "254106575683",
-  appId: "1:254106575683:web:91f142b6fc248ba7e345f6"
+  authDomain: "contact-app-392d4.firebaseapp.com",
+  projectId: "contact-app-392d4",
+  storageBucket: "contact-app-392d4.appspot.com",
+  messagingSenderId: "277640529079",
+  appId: "1:277640529079:web:2dcfaeacebdb3ed9aff932"
 };
 
 // Initialize Firebase
